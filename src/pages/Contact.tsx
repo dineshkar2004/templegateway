@@ -60,7 +60,7 @@ const Contact = () => {
   return (
     <Layout>
       {/* Hero Section */}
-      <section className="py-20 bg-gradient-warm">
+      <section className="h-[350px] flex items-center justify-center bg-gradient-warm">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center space-y-6 animate-fade-in">
             <span className="text-secondary font-body text-sm uppercase tracking-widest">

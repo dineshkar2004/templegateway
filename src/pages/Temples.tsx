@@ -57,12 +57,16 @@ const Temples = () => {
   return (
     <Layout>
       {/* Hero Section */}
-      <section className="py-12 bg-gradient-warm">
+      <section className="h-[350px] flex items-center justify-center bg-gradient-warm">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center space-y-4">
+            <span className="text-secondary font-body text-sm uppercase tracking-widest">
+              Temples
+            </span>
             <h1 className="font-display text-4xl md:text-5xl font-bold text-foreground">
               Explore Sacred <span className="text-primary">Temples</span>
             </h1>
+            <div className="section-divider" />
             <p className="font-body text-muted-foreground">
               Discover {temples.length}+ temples across India with detailed information and interactive maps.
             </p>

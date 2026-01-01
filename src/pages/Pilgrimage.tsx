@@ -3,7 +3,6 @@ import { Calendar, Clock, MapPin, Users, Star, ArrowRight, Sparkles } from "luci
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import Layout from "@/components/layout/Layout";
-import backgroundImage from "@/assets/background1.jpg";
 
 const tourPackages = [
   {
@@ -93,35 +92,21 @@ const Pilgrimage = () => {
   return (
     <Layout>
       {/* Hero Section */}
-      <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden">
-        <div
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: `url(${backgroundImage})` }}
-        />
-        <div className="absolute inset-0 bg-gradient-to-b from-foreground/40 via-foreground/50 to-foreground/80" />
+      <section className="relative h-[350px] flex items-center justify-center overflow-hidden" style={{ backgroundColor: '#f5f1eb' }}>
         
         <div className="relative z-10 container mx-auto px-4 text-center">
           <div className="max-w-4xl mx-auto space-y-8 animate-fade-in">
-            <div className="inline-flex items-center gap-2 bg-saffron/20 backdrop-blur-sm px-4 py-2 rounded-full border border-saffron/30">
-              <Sparkles size={16} className="text-saffron" />
-              <span className="text-saffron font-body text-sm">Curated Spiritual Journeys</span>
-            </div>
-            
-            <h1 className="font-display text-5xl md:text-7xl font-bold text-background leading-tight">
-              Pilgrimage Packages
+            <span className="text-secondary font-body text-sm uppercase tracking-widest">
+              Pilgrimage
+            </span>
+            <h1 className="font-display text-5xl md:text-7xl font-bold text-foreground leading-tight">
+              Pilgrimage <span style={{ color: '#c34b22' }}>Packages</span>
             </h1>
-            
-            <p className="font-body text-lg md:text-xl text-background/80 max-w-2xl mx-auto leading-relaxed">
+            <div className="section-divider" />
+            <p className="font-body text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
               Embark on transformative spiritual journeys with our expertly crafted pilgrimage 
-              packages. From the Char Dham to Jyotirlingas, experience divine blessings.
+              packages.
             </p>
-          </div>
-        </div>
-
-        {/* Scroll Indicator */}
-        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-float">
-          <div className="w-6 h-10 rounded-full border-2 border-background/50 flex items-start justify-center p-2">
-            <div className="w-1 h-2 bg-background/50 rounded-full animate-pulse" />
           </div>
         </div>
       </section>
