@@ -10,6 +10,7 @@ import Index from "./pages/Index";
 import Temples from "./pages/Temples";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
+import Pilgrimage from "./pages/Pilgrimage";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -56,6 +57,7 @@ const App = () => {
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="/temples" element={<Temples />} />
+            <Route path="/pilgrimage" element={<Pilgrimage />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="*" element={<NotFound />} />

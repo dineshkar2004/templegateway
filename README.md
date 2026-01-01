@@ -1,28 +1,12 @@
-# Welcome to your Lovable project
 
-## Project info
-
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
-
-## How can I edit this code?
-
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
 
 **Use your preferred IDE**
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+If you want to work locally using your own IDE, you can clone this repo and push changes. 
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
 Follow these steps:
 
-```sh
 # Step 1: Clone the repository using the project's Git URL.
 git clone <YOUR_GIT_URL>
 
@@ -34,7 +18,6 @@ npm i
 
 # Step 4: Start the development server with auto-reloading and an instant preview.
 npm run dev
-```
 
 **Edit a file directly in GitHub**
 
@@ -60,14 +43,13 @@ This project is built with:
 - shadcn-ui
 - Tailwind CSS
 
-## How can I deploy this project?
+## Features
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+This Temple Gateway application provides a comprehensive platform for spiritual travelers and pilgrims. Key features include:
 
-## Can I connect a custom domain to my Lovable project?
+- **Temple Directory**: Browse and explore various temples across India
+- **Pilgrimage Tours**: Book guided pilgrimage packages including popular routes like Char Dham Yatra, Jyotirlinga Darshan, and South India Temple Tour
+- **Interactive Map**: Locate temples and plan your spiritual journey
+- **About & Contact**: Learn more about the project and get in touch
 
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+The pilgrimage page features newly added tour packages for various sacred destinations, making it easier for devotees to plan their spiritual journeys.
