@@ -159,6 +159,36 @@ const Index = () => {
           </div>
         </div>
       </section>
+      {/* video section */}
+      <section className="py-20 bg-muted">
+        <div className="container mx-auto px-4">
+          <div className="text-center space-y-4 mb-14">
+            <span className="text-secondary font-body text-sm uppercase tracking-widest">
+              Experience the Divine
+            </span>
+            <h2 className="font-display text-4xl md:text-5xl font-bold text-foreground">
+              Your Spiritual Journey Awaits
+            </h2>
+            <div className="section-divider" />
+            <p className="font-body text-muted-foreground max-w-2xl mx-auto">
+              Watch our video to discover the transformative experiences that await you 
+              on your pilgrimage journey.
+            </p>
+          </div>
+            
+          <div className="max-w-4xl mx-auto">
+            <div className="relative aspect-video rounded-2xl overflow-hidden shadow-elevated bg-foreground/5">
+              <iframe
+                className="w-full h-full"
+                src="https://www.youtube.com/embed/U2OyyvVb9Dw?rel=0"
+                title="Temple Gateway - Spiritual Journey"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              />
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* Why Choose Us */}
       <section className="py-20 bg-muted">
